@@ -1,0 +1,133 @@
+.navbar-nav a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.aga1{
+    font-family: 'Akira Expanded Demo.otf';
+    font-size: 60px;
+}
+.aga2{
+    font-family: 'Akira Expanded Demo.otf';
+    font-size: 60px;
+    color: white;
+}
+
+.p1{
+    font-family: 'Stabillo Medium.ttf';
+    font-size: 1.5em;
+    color: white;
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#color-menu{
+    color: white;
+    border-radius:20px ;
+}
+
+#color-menu:hover{
+    background-color:#4682B4;
+    color:white;
+    transition: all .3s;
+    border-radius: 20px;
+}
+
+#lll{
+    background-color: seashell;
+}
+
+#lll:hover{
+    background-color:#4682B4;
+    transition: all .3s;
+    border-radius: 15px;
+}
+
+section img{
+    width: 100%;
+}
+
+.header-site{
+    background-image: url('../img/bluedark.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.trabalhos{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color:#0000CD;
+}
+.sobre-mim{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.imgb{
+    border-radius: 20px;
+    height: 250px;
+}
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    max-width: 100%;
+    -moz-transition:all 0.3s ;
+    -webkit-transition: all 0.2s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);;
+    border-radius: 70px;
+}
+
+.log-site{
+    background-image: url('../img/teclasbluedark.jpg');
+    background-position: center top;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+.rodape{
+    background-color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.items{
+    display: flex;
+    width:350px;
+    list-style: none;
+}
+section ul {
+    float: inline-start;
+    display: table;
+}
+
+section ul li {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}
