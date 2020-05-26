@@ -63,6 +63,7 @@ section img{
     color: white;
     padding-top: 300px;
     padding-bottom: 300px;
+    width:100%;
 }
 
 .trabalhos{
@@ -107,6 +108,7 @@ section img{
     color: white;
     padding-bottom: 200px;
     padding-top: 200px;
+    width:100%;
 }
 
 .rodape{
